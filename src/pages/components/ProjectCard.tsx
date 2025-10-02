@@ -14,7 +14,11 @@ export default function ProjectCard(props: Project) {
         hover:-translate-y-1
       "
     >
-      <Link href={`/projects/${props.slug}`} className="absolute inset-0 z-10" aria-label={props.title} />
+      <Link
+        href={`/projects/${props.slug}`}
+        className="absolute inset-0 z-10 pointer-events-auto"
+        aria-label={props.title}
+      />
       {/* Cover */}
       <div className="relative aspect-[16/9] w-full overflow-hidden">
         <Image
