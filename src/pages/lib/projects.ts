@@ -11,18 +11,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "book-store",
-    title: "E-Ticaret: Book-Store",
-    summary: "Next.js + Tailwind ile kitap e-ticaret sitesi; SWR, Axios, JWT, Docker.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "SWR", "Axios"],
-    cover: "/images/book-store.png",
-    github: "https://github.com/melekalyoncu/books-store",
-    demo: "https://books-store-nu.vercel.app",
+    slug: "e-commerce",
+    title: "Next.js e-Ticaret Websitesi",
+    summary: "e-ticaret sitesi tasarımı; ürün listeleme, detay, sepet ve ödeme sayfaları.",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    cover: "/images/e-commerce.png",
+    github: "https://github.com/melekalyoncu/e-commerce",
+    demo: "https://e-commerce-rouge-ten-15.vercel.app",
     content: `Özellikler:
-- Kategoriye göre filtreleme, yatay scroll liste.
-- SWR + Axios ile veri yönetimi, JWT hazır entegrasyon yapısı.
-- Dark/Light tema, responsive tasarım.
-- Admin/Seller rolleri için arayüz (tasarım).`
+- Ürün listeleme, detay, sepet ve ödeme sayfaları.
+- Responsive tasarım ve temel etkileşimler.
+- E-ticaret projeleri için başlangıç şablonu.`
   },
 
   {
@@ -41,16 +40,29 @@ export const projects: Project[] = [
 
   {
     slug: "piton-intern",
-    title: "Piton Intern – Çalışmalar",
-    summary: "Staj sürecinde yapılan alıştırmalar, küçük projeler ve notlar.",
-    tech: ["TypeScript", "Node.js", "SQL"],
+    title: "Staj Websitesi",
+    summary: "Staj kabulu için web site tasarımı",
+    tech: ["JavaScript", "Next.js", "Tailwind"],
     cover: "/images/piton-intern.png",
     github: "https://github.com/melekalyoncu/piton_intern",
     demo: "https://piton-intern.vercel.app",
     content: `İçerik:
-- Backend ve veri tabanı alıştırmaları.
-- Küçük servisler, yardımcı scriptler.
-- Notlar ve deneyler.`
+- Staj başvurusu için hazırlanan web sitesi.
+- Figma’daki verilen örnek tasarım üzerinden kodlandı.`
+  },
+  {
+    slug: "book-store",
+    title: "E-Ticaret: Book-Store",
+    summary: "Next.js + Tailwind ile kitap e-ticaret sitesi; SWR, Axios, JWT, Docker.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "SWR", "Axios"],
+    cover: "/images/book-store.png",
+    github: "https://github.com/melekalyoncu/books-store",
+    demo: "https://books-store-nu.vercel.app",
+    content: `Özellikler:
+- Kategoriye göre filtreleme, yatay scroll liste.
+- SWR + Axios ile veri yönetimi, JWT hazır entegrasyon yapısı.
+- Dark/Light tema, responsive tasarım.
+- Admin/Seller rolleri için arayüz (tasarım).`
   },
 
   {
@@ -66,19 +78,7 @@ export const projects: Project[] = [
 - Görsel/ikon kullanımıyla sade tasarım.
 - Kolayca projelere entegre edilebilir.`
   },
-  {
-    slug: "e-commerce",
-    title: "Next.js e-Ticaret Websitesi",
-    summary: "e-ticaret sitesi tasarımı; ürün listeleme, detay, sepet ve ödeme sayfaları.",
-    tech: ["Next.js", "TypeScript", "Tailwind"],
-    cover: "/images/e-commerce1.png",
-    github: "https://github.com/melekalyoncu/e-commerce",
-    demo: "https://e-commerce-rouge-ten-15.vercel.app",
-    content: `Özellikler:
-- Ürün listeleme, detay, sepet ve ödeme sayfaları.
-- Responsive tasarım ve temel etkileşimler.
-- E-ticaret projeleri için başlangıç şablonu.`
-  },
+
 ];
 
 export function getProject(slug: string) {

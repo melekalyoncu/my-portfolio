@@ -52,6 +52,11 @@
     transform: translateY(0) scale(1);
   }
 }
+/* Parallax hedefleri */
+[data-speed]{
+  will-change: transform;
+  transform: translate3d(var(--px, 0), var(--py, 0), 0);
+}
 
 .reveal {
   opacity: 0;
