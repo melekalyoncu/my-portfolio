@@ -4,12 +4,12 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import ProjectCard from "./components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import { projects } from "../lib/projects";
-import Orb from "./components/decor/Orb";
-import SectionCard from "./components/ui/SectionCard";
-import FeaturedProjectRow from "./components/FeaturedProjectRow";
-import Parallax from "./components/Parallax";
+import Orb from "../components/decor/Orb";
+import SectionCard from "../components/ui/SectionCard";
+import FeaturedProjectRow from "../components/FeaturedProjectRow";
+import Parallax from "../components/Parallax";
 
 export default function HomePage() {
   // Reveal animasyonları
