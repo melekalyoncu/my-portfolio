@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Project } from "../lib/projects";
+import type { Project } from "../../lib/projects";
 
 export default function ProjectCard(props: Project) {
   return (

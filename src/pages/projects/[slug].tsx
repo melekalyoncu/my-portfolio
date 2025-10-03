@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
-import { getProject } from "../lib/projects";
+import { getProject } from "../../lib/projects";
 
 export default function ProjectDetail() {
   const { query } = useRouter();
