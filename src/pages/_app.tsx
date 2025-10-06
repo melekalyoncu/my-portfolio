@@ -1,7 +1,8 @@
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
+import { appWithTranslation } from "next-i18next";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className="min-h-screen bg-white text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100 transition-colors">
       <main className="relative">
@@ -10,3 +11,5 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     </div>
   );
 }
+
+export default appWithTranslation(MyApp);

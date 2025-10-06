@@ -1,0 +1,33 @@
+{
+   "page": {
+    "notFound": "Proje bulunamadı.",
+    "backAll": "← Tüm projeler",
+    "github": "GitHub ↗",
+    "liveDemo": "Canlı Demo ▶"
+  },
+  "e-commerce": {
+    "title": "Next.js e-Ticaret Websitesi",
+    "summary": "e-ticaret sitesi tasarımı; ürün listeleme, detay, sepet ve ödeme sayfaları.",
+    "content": "Özellikler:\n- Ürün listeleme, detay, sepet ve ödeme sayfaları.\n- Responsive tasarım ve temel etkileşimler.\n- E-ticaret projeleri için başlangıç şablonu."
+  },
+  "crypto-tracker": {
+    "title": "Crypto Tracker – Fiyat & Piyasa Takip",
+    "summary": "Next.js ile coin takip paneli; responsive arayüz ve temel grafikler.",
+    "content": "Özellikler:\n- Coin listeleme ve detay görünümü.\n- Mobil uyumlu arayüz ve hızlı arama.\n- Geliştirmeye açık grafik/analitik altyapısı."
+  },
+  "piton-intern": {
+    "title": "Staj Websitesi",
+    "summary": "Staj kabulu için web site tasarımı",
+    "content": "İçerik:\n- Staj başvurusu için hazırlanan web sitesi.\n- Figma’daki verilen örnek tasarım üzerinden kodlandı."
+  },
+  "book-store": {
+    "title": "E-Ticaret: Book-Store",
+    "summary": "Next.js + Tailwind ile kitap e-ticaret sitesi; SWR, Axios, JWT, Docker.",
+    "content": "Özellikler:\n- Kategoriye göre filtreleme, yatay scroll liste.\n- SWR + Axios ile veri yönetimi, JWT hazır entegrasyon yapısı.\n- Dark/Light tema, responsive tasarım.\n- Admin/Seller rolleri için arayüz (tasarım)."
+  },
+  "nextjs-contact-page": {
+    "title": "Next.js Contact Page",
+    "summary": "Basit ama şık iletişim sayfası; Next.js + Tailwind.",
+    "content": "Özellikler:\n- Form bileşenleri ve validasyon iskeleti.\n- Görsel/ikon kullanımıyla sade tasarım.\n- Kolayca projelere entegre edilebilir."
+  }
+}

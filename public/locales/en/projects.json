@@ -1,0 +1,33 @@
+{
+     "page": {
+    "notFound": "Project not found.",
+    "backAll": "← All projects",
+    "github": "GitHub ↗",
+    "liveDemo": "Live Demo ▶"
+  },
+  "e-commerce": {
+    "title": "Next.js E-Commerce Website",
+    "summary": "E-commerce design; product listing, detail, cart and checkout pages.",
+    "content": "Features:\n- Product listing, detail, cart and checkout pages.\n- Responsive design and basic interactions.\n- Starter template for e-commerce projects."
+  },
+  "crypto-tracker": {
+    "title": "Crypto Tracker – Prices & Market",
+    "summary": "Coin tracking panel with Next.js; responsive UI and basic charts.",
+    "content": "Features:\n- Coin listing and detail view.\n- Mobile-friendly UI and fast search.\n- Chart/analytics foundation to extend."
+  },
+  "piton-intern": {
+    "title": "Internship Website",
+    "summary": "Website design for internship acceptance",
+    "content": "Content:\n- Website prepared for internship application.\n- Coded from the provided Figma example."
+  },
+  "book-store": {
+    "title": "E-Commerce: Book-Store",
+    "summary": "Book e-commerce with Next.js + Tailwind; SWR, Axios, JWT, Docker.",
+    "content": "Features:\n- Category filtering, horizontal scroll list.\n- Data layer with SWR + Axios, JWT-ready structure.\n- Dark/Light theme, responsive design.\n- UI for Admin/Seller roles (design)."
+  },
+  "nextjs-contact-page": {
+    "title": "Next.js Contact Page",
+    "summary": "Simple yet elegant contact page; Next.js + Tailwind.",
+    "content": "Features:\n- Form components and validation skeleton.\n- Clean design with visuals/icons.\n- Easily pluggable to projects."
+  }
+}
