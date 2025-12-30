@@ -20,6 +20,13 @@ const baseProjects: ProjectBase[] = [
     github: "https://github.com/melekalyoncu/e-commerce",
     demo: "https://e-commerce-rouge-ten-15.vercel.app"
   },
+   {
+    slug: "sport-clup",
+    tech: ["Next.js", "TypeScript", "Tailwind"],
+    cover: "/images/kadikoy.png",
+    github: "https://github.com/melekalyoncu/yeni_kadikoy",
+    demo: "https://www.yenikadikoyspor.com/"
+  },
   {
     slug: "crypto-tracker",
     tech: ["Next.js", "TypeScript", "Tailwind"],

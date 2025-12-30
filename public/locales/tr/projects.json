@@ -10,6 +10,11 @@
     "summary": "e-ticaret sitesi tasarımı; ürün listeleme, detay, sepet ve ödeme sayfaları.",
     "content": "Özellikler:\n- Ürün listeleme, detay, sepet ve ödeme sayfaları.\n- Responsive tasarım ve temel etkileşimler.\n- E-ticaret projeleri için başlangıç şablonu."
   },
+  "sport-clup": {
+  "title": "Yeni Kadıköy Spor Kulübü – Resmi Web Sitesi",
+  "summary": "Yeni Kadıköy Spor Kulübü için Next.js ve Tailwind CSS kullanılarak geliştirilen modern, responsive ve kurumsal web sitesi.",
+  "content": "Özellikler:\n- Kulüp tanıtımı, branşlar ve spor okulları sayfaları.\n- Haberler, duyurular ve etkinlik içerikleri.\n- Mobil uyumlu, hızlı ve modern kullanıcı arayüzü.\n- İletişim, kayıt ve tesis bilgileri için özel sayfalar.\n- Sponsor alanları ve dinamik ana sayfa bileşenleri."
+},
   "crypto-tracker": {
     "title": "Crypto Tracker – Fiyat & Piyasa Takip",
     "summary": "Next.js ile coin takip paneli; responsive arayüz ve temel grafikler.",
