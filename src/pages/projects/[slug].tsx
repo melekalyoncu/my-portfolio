@@ -75,7 +75,7 @@ export default function ProjectDetail({ slug }: Props) {
 }
 
 export async function getStaticProps({ params, locale }: { params: { slug: string }, locale: string }) {
-  const slug = params.slug; 
+  const slug = params.slug;
   return {
     props: {
       slug,
@@ -86,8 +86,17 @@ export async function getStaticProps({ params, locale }: { params: { slug: strin
 
 export async function getStaticPaths() {
   const slugs = getProjectSlugs();
+  const locales = ['tr', 'en']; // next-i18next.config.js'deki locales ile aynı
+
+  const paths = slugs.flatMap((slug) =>
+    locales.map((locale) => ({
+      params: { slug },
+      locale,
+    }))
+  );
+
   return {
-    paths: slugs.map((slug) => ({ params: { slug } })),
-    fallback: "blocking", 
+    paths,
+    fallback: false, // blocking yerine false kullanıyoruz çünkü tüm path'ler build time'da oluşturuluyor
   };
 }
